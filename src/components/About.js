@@ -4,20 +4,16 @@ export default function About() {
 
     let myStyle = {
 
-        // backgroundColor: '#111214',
         color: 'white',
         border: '1px solid #cccccc ',
         borderColor: '#182233',
         borderRadius: '15px',
-        // height: '57px',
-        marginBottom: '0px',
-        // width : '100%',
         display: 'block',
-        // boxSizing: 'border-box',
         padding: '16px 35px',
         backgroundColor: 'rgba(29, 40, 56, 0.25)',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        cursor:'text'
     }
 
     let Span = {
@@ -85,8 +81,8 @@ export default function About() {
         backgroundColor: '#000'
     }
 
-    let ban={
-        position:' relative',
+    let ban = {
+        position: ' relative',
         display: 'flex',
         overflow: 'hidden',
         width: '100%',
@@ -94,10 +90,10 @@ export default function About() {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius:' 15px',
-        backgroundImage:' linear-gradient(140deg , rgba(29, 40, 56, 0.5), rgba(29, 40, 56, 0.25))',
+        borderRadius: ' 15px',
+        backgroundImage: ' linear-gradient(140deg , rgba(29, 40, 56, 0.5), rgba(29, 40, 56, 0.25))',
         textAlign: 'center',
-        backgroundColor:' #000'
+        backgroundColor: ' #000'
     }
 
     return (
@@ -208,7 +204,7 @@ export default function About() {
                 <div className="row my-3">
                     <div className="col-md-3" >
                         <div className="card-group">
-                            <div className="card" style={{ backgroundColor: '#000'}}>
+                            <div className="card" style={{ backgroundColor: '#000' }}>
                                 <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
@@ -219,8 +215,8 @@ export default function About() {
                     </div>
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card"style={{ backgroundColor: '#000'}}>
-                                <img src="assets/images/icon.png" className="card-img-top"style={Img} alt="picture" />
+                            <div className="card" style={{ backgroundColor: '#000' }}>
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -230,8 +226,8 @@ export default function About() {
                     </div>
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card" style={{ backgroundColor: '#000'}}>
-                                <img src="assets/images/icon.png" className="card-img-top"style={Img} alt="picture" />
+                            <div className="card" style={{ backgroundColor: '#000' }}>
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -241,7 +237,7 @@ export default function About() {
                     </div>
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card" style={{ backgroundColor: '#000'}}>
+                            <div className="card" style={{ backgroundColor: '#000' }}>
                                 <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
@@ -254,7 +250,7 @@ export default function About() {
                 <div className="row my-3">
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card" style={{ backgroundColor: '#000'}}>
+                            <div className="card" style={{ backgroundColor: '#000' }}>
                                 <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
@@ -265,7 +261,7 @@ export default function About() {
                     </div>
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card"style={{ backgroundColor: '#000'}}>
+                            <div className="card" style={{ backgroundColor: '#000' }}>
                                 <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
@@ -276,7 +272,7 @@ export default function About() {
                     </div>
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card" style={{ backgroundColor: '#000'}}>
+                            <div className="card" style={{ backgroundColor: '#000' }}>
                                 <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
@@ -287,7 +283,7 @@ export default function About() {
                     </div>
                     <div className="col-md-3">
                         <div className="card-group">
-                            <div className="card" style={{ backgroundColor: '#000'}}>
+                            <div className="card" style={{ backgroundColor: '#000' }}>
                                 <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
@@ -300,10 +296,10 @@ export default function About() {
             </div>
 
             <div className="container my-5">
-                <div className="card text-center"style={ban}>
+                <div className="card text-center" style={ban}>
                     <div className="card-body">
-                        <h5 className="card-title mb-5" style={{color: '#fff',fontSize:' 52px',lineHeight: '110%',fontWeight: '500',letterSpacing:' -0.8px'}}>Stay informed and never miss a Core update! </h5>
-                        <div className="mb-3">
+                        <h5 className="card-title mb-5" style={{ color: '#fff', fontSize: ' 52px', lineHeight: '110%', fontWeight: '500', letterSpacing: ' -0.8px' }}>Stay informed and never miss a Core update! </h5>
+                        {/* <div className="mb-3">
                             <div className="row">
                                 <div className="col-md-5"> 
                                     <input type="email " style={myStyle} className="form-control" id="exampleInputEmail1" placeholder="Your email address " aria-describedby="emailHelp" />
@@ -314,7 +310,14 @@ export default function About() {
                                 </div>
                             </div>
 
+                        </div> */}
+                        <div class="container">
+                            <form class="d-flex">
+                                <input class="form-control me-3" style={myStyle} type="email" placeholder="Your email address" aria-label="Search" />
+                                <button className="btn btn-primary" style={{cursor:'pointer', padding: '16px 35px',borderRadius: '15px',  backgroundColor: '#3183ff',  backgroundImage:' linear-gradient(150deg , transparent, #0751bf) '}}> Subscribe </button>
+                            </form>
                         </div>
+
                     </div>
                 </div>
             </div>
