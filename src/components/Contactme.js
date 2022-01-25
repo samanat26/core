@@ -15,20 +15,35 @@ export default function Contactme() {
         display: 'block',
         boxSizing: 'border-box',
         padding : '16px 35px',
-        // fontSize: '18px'
-
+        backgroundColor:'rgba(29, 40, 56, 0.25)'
     }
+
+     let Span ={
+        // marginBottom: '15px',
+        padding: '9px 18px',
+        borderStyle: 'solid',
+        borderWidth: '2px',
+        borderColor: '#2d466a',
+        borderRadius: '12px',
+        color: '#3183ff',
+        fontSize: '13px',
+        lineHeight: '140%',
+        fontWeight: '500',
+        letterSpacing: '2px',
+        textTransform : 'uppercase',
+        // backgroundColor:'#000'
+     }
     return (
-        <div className="container my-3 ">
+        <div className="container my-3 " style={{maxWidth:'700px'}} >
             <div className="row">
                 <div className="col-md-12 mx-auto">
                     <div className="row">
                         <div className="col">
-                            <button className="btn btn-outline-primary my-5" style={{borderRadius:'15px', padding:'2px 30px'}} type="submit">Contact</button>
-                            <h1 className="mb-5" style={{fontSize: '80px',fontWeight:' 600', lineHeight: '106%',  letterSpacing: '-1.4px'}}>
-                                Get In Touch
+                            <span className=" badge my-3" style={Span} >Contact</span>
+                            <h1 className="mb-5" style={{fontSize: '80px',fontWeight:' 400', lineHeight: '106%',  letterSpacing: '-1.4px'}}>
+                                Get in touch
                             </h1>
-                            <p className="mb-5" style={{ color: 'GrayText' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+                            <p className="mb-5" style={{ maxWidth:'620px',color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                             </p>
                         </div>
                     </div>

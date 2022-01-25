@@ -6,6 +6,7 @@ export default function Footer() {
     color : 'white',
     textDecoration: 'none',
     alignItems: 'center'
+    // maxWidth: '840px'
   }
 
   return (
@@ -24,8 +25,8 @@ export default function Footer() {
         </div>
         <div className="footer col-6 col-lg-2 offset-lg-1 mb-3">
           <h5>Quick Links</h5>
-          <ul className="list-unstyled ">
-            <li className="mb-2"><a href="/about">About</a></li>
+          <ul className="list-unstyled " style={{color:'white'}}>
+            <li className="mb-2"style={{color:'white'}}><a href="/about">About</a></li>
             <li className="mb-2"><a href="/technology">Technology</a></li>
             <li className="mb-2"><a href="/contact">Contact</a></li>
             <li className="mb-2"><a href="/blog">Blog</a></li>

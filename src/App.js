@@ -1,7 +1,7 @@
 import './App.css';
 import About from './components/About';
 import Blog from './components/Blog';
-// import Contactme from './components/Contactme';
+import Contactme from './components/Contactme';
 import Footer from './components/Footer';
 // import Modal from './components/Modal';
 import Navbar from './components/Navbar';
@@ -17,7 +17,7 @@ function App() {
         <Navbar />
           {/* <Contactme/> */}
           {/* <Modal/> */}
-          <Blog/>
+          {/* <Blog/> */}
           <About />
           <Footer />
 

@@ -2,7 +2,7 @@
   text-align: center;
   margin: 0;
   text-decoration: none;
-  
+  /* max-width: 840px; */
 }
 
 
@@ -21,6 +21,7 @@
 
   
 }
+
 /* 
 .form form-control {
            
