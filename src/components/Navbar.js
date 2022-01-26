@@ -32,8 +32,8 @@ export default function Navbar() {
         
       </ul>
       <form className="d-flex">
-      <button className="btn  mx-1" style={{color:'white',cursor:'pointer',  fontSize: '18px',fontWeight:' 400',textAlign:'center', borderRadius:'14px', padding:'16px 35px'}} type="submit">Cart <span className="badge bg-secondary mx-1" style={{borderRadius:'14px' }}>0</span></button>
-        <button className="btn btn-outline-primary  mx-1" style={{color:'white',cursor:'pointer',  fontSize: '18px',fontWeight:' 400',textAlign:'center', borderRadius:'14px', padding:'16px 35px'}} type="submit">Get Started</button>
+      <button className="btn " style={{color:'white',cursor:'pointer',  fontSize: '18px',fontWeight:' 400',textAlign:'center', borderRadius:'14px', padding:'16px 35px'}} type="submit">Cart <span className="badge bg-secondary mx-1" style={{borderRadius:'14px' }}>0</span></button>
+        <button className="btn me-5" style={{backgroundColor: '#1d2838',color:'white',cursor:'pointer',  fontSize: '18px',fontWeight:' 400',textAlign:'center', borderRadius:'15px', padding:'10px 28px'}} type="submit">Get Started</button>
       </form>
     </div>
   </div>

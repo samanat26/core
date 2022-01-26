@@ -91,7 +91,7 @@ export default function About() {
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: ' 15px',
-        backgroundImage: ' linear-gradient(140deg , rgba(29, 40, 56, 0.5), rgba(29, 40, 56, 0.25))',
+        backgroundImage: ' linear-gradient(140deg , rgba(29, 40, 56, 0.5), #182233)',
         textAlign: 'center',
         backgroundColor: ' #000'
     }
@@ -205,7 +205,7 @@ export default function About() {
                     <div className="col-md-3" >
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -216,7 +216,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -227,7 +227,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -238,7 +238,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -251,7 +251,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -262,7 +262,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -273,7 +273,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-Founder</small></p>
@@ -284,7 +284,7 @@ export default function About() {
                     <div className="col-md-3">
                         <div className="card-group">
                             <div className="card" style={{ backgroundColor: '#000' }}>
-                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt="picture" />
+                                <img src="assets/images/icon.png" className="card-img-top" style={Img} alt=" " />
                                 <div className="card-body">
                                     <h5 className="card-title">Name of a person</h5>
                                     <p className="card-text"><small className="text-muted">Co-founder</small></p>
@@ -312,8 +312,8 @@ export default function About() {
 
                         </div> */}
                         <div class="container">
-                            <form class="d-flex">
-                                <input class="form-control me-3" style={myStyle} type="email" placeholder="Your email address" aria-label="Search" />
+                            <form class="d-flex ">
+                                <input class="form-control me-3 " style={myStyle} type="email" placeholder="Your email address" aria-label="Search" />
                                 <button className="btn btn-primary" style={{cursor:'pointer', padding: '16px 35px',borderRadius: '15px',  backgroundColor: '#3183ff',  backgroundImage:' linear-gradient(150deg , transparent, #0751bf) '}}> Subscribe </button>
                             </form>
                         </div>
