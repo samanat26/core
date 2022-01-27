@@ -311,7 +311,7 @@ export default function About() {
                             </div>
 
                         </div> */}
-                        <div class="container">
+                        <div class="container d-flex justify-content-center">
                             <form class="d-flex ">
                                 <input class="form-control me-3 " style={myStyle} type="email" placeholder="Your email address" aria-label="Search" />
                                 <button className="btn btn-primary" style={{cursor:'pointer', padding: '16px 35px',borderRadius: '15px',  backgroundColor: '#3183ff',  backgroundImage:' linear-gradient(150deg , transparent, #0751bf) '}}> Subscribe </button>

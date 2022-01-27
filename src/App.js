@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About';
 import Blog from './components/Blog';
 import Contactme from './components/Contactme';
+import Essential from './components/Essential';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Individuals from './components/Individuals';
@@ -17,9 +18,10 @@ function App() {
     <>
     
       <div className="App">
-        <div className="App-header">
+    
         <Navbar />
-        {/* <Home/> */}
+        {/* <Essential/> */}
+        <Home/>
         {/* <Started/> */}
         {/* <Individuals/> */}
           {/* <Contactme/> */}
@@ -27,10 +29,12 @@ function App() {
           {/* <Blog/> */}
           {/* <About /> */}
           {/* <Technology/> */}
+
+
           
           <Footer />
 
-        </div>
+      
       </div>
 
     </>

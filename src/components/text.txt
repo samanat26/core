@@ -1,0 +1,39 @@
+
+      <Modal
+                  isOpen={modalBasic}
+                  toggle={() => setModalBasic(!modalBasic)}
+                >
+                  <ModalBody>
+                    <AvForm>
+                      <AvGroup>
+                        <Label>Reason</Label>
+                        <AvInput
+                          name="rank"
+                          type="textarea"
+                          rows="6"
+                          required
+                          id="message"
+                        />
+                      </AvGroup>
+                    </AvForm>
+                  </ModalBody>
+                  <ModalFooter>
+                    <Button
+                      color="primary"
+                      onClick={() => {
+                        setModalBasic(false);
+                        declineDispute(
+                          document.getElementById("message").value
+                        );
+                      }}
+                    >
+                      Submit
+                    </Button>{" "}
+                    <Button
+                      color="secondary"
+                      onClick={() => setModalBasic(false)}
+                    >
+                      Cancel
+                    </Button>
+                  </ModalFooter>
+                </Modal>

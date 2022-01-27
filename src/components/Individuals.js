@@ -63,7 +63,7 @@ export default function Individuals() {
 
     let bblock = {
         display: 'flex',
-        padding: '15px 12% 70px;',
+        padding: '15px 12% 70px',
         alignItems: 'center',
         borderRadius: '15px',
         backgroundImage: 'linear-gradient(140deg, rgba(29, 40, 56, 0.5), #182233)',
@@ -168,7 +168,7 @@ export default function Individuals() {
                 <div className="card text-center" style={ban}>
                     <div className="card-body">
                         <h5 className="card-title mb-5" style={{ color: '#fff', fontSize: ' 52px', lineHeight: '110%', fontWeight: '500', letterSpacing: ' -0.8px' }}>Stay informed and never miss a Core update! </h5>
-                        <div className="container">
+                        <div className="container d-flex justify-content-center">
                             <form className="d-flex ">
                                 <input className="form-control me-3 " style={myStyle} type="email" placeholder="Your email address" aria-label="Search" />
                                 <button className="btn btn-primary" style={{ cursor: 'pointer', padding: '16px 35px', borderRadius: '15px', backgroundColor: '#3183ff', backgroundImage: ' linear-gradient(150deg , transparent, #0751bf) ' }}> Subscribe </button>

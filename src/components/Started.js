@@ -63,7 +63,7 @@ export default function Started() {
 
     let bblock = {
         display: 'flex',
-        padding: '15px 12% 70px;',
+        padding: '15px 12% 70px',
         alignItems: 'center',
         borderRadius: '15px',
         backgroundImage: 'linear-gradient(140deg, rgba(29, 40, 56, 0.5), #182233)',
@@ -95,13 +95,23 @@ export default function Started() {
                         </h1>
                         <p className="mb-5" style={{ maxWidth: '860px', color: '#616d7e', textAlign: 'center' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
-                        <span className="badge " style={smBlock}>
+                        {/* <span className="badge " style={smBlock}>
                             <button className="btn me-3" style={{ color: 'white', cursor: 'pointer' }}><b>Enterprise</b></button>
                             <button className="btn" style={{  cursor: 'pointer' , color: 'white' }}><b>Individuals</b></button>
-                        </span>
+                        </span> */}
                     </div>
                 </div>
             </div>
+            <div className="container d-flex justify-content-center" style={smBlock}>
+        <button
+          className="btn me-3 text-center"
+          style={{ color: "white", cursor: "pointer" }}>
+          <b>Enterprise</b>
+        </button>
+        <button className="btn" style={{ cursor: "pointer", color: "white" }}>
+          <b>Individuals</b>
+        </button>
+      </div>
 
             <div className="container my-5" >
             <div className="row my-5">
@@ -225,7 +235,7 @@ export default function Started() {
                 <div className="card text-center" style={ban}>
                     <div className="card-body">
                         <h5 className="card-title mb-5" style={{ color: '#fff', fontSize: ' 52px', lineHeight: '110%', fontWeight: '500', letterSpacing: ' -0.8px' }}>Stay informed and never miss a Core update! </h5>
-                        <div className="container">
+                        <div className="container d-flex justify-content-center">
                             <form className="d-flex ">
                                 <input className="form-control me-3 " style={myStyle} type="email" placeholder="Your email address" aria-label="Search" />
                                 <button className="btn btn-primary" style={{ cursor: 'pointer', padding: '16px 35px', borderRadius: '15px', backgroundColor: '#3183ff', backgroundImage: ' linear-gradient(150deg , transparent, #0751bf) ' }}> Subscribe </button>
