@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Modal() {
   return (
+
+    //before adding
     <div className="modal" tabindex="-1">
     <div className="modal-dialog">
       <div className="modal-content">

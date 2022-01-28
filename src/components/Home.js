@@ -69,13 +69,58 @@ export default function Home() {
     backgroundColor: '#000',
     justifyContent: 'center',
     backgroundColor: "#000"
+  }
 
+  let Style = {
+    textAlign: 'center',
+    backgroundColor: '#000',
+    color: 'white',
+    minHeight: '50%',
+    alignItems: 'center',
+    maxWidth: '991px'
 
   }
 
+  let read = {
+    padding: '16px 35px',
+    borderRadius: '15px',
+    backgroundColor: ' #3183ff',
+    backgroundImage: 'linear-gradient(150deg, transparent, #0751bf)',
+    color: '#fff',
+    fontSize: '18px',
+    lineHeight: '140%',
+    textAlign: 'center'
+  }
+
+  let bgbox = {
+    borderRadius: '15px',
+    backgroundImage: 'linear-gradient(140deg, #1d2838, rgba(29, 40, 56, 0.5))',
+    opacity: '0.5',
+    backgroundColor: '#000'
+
+  }
+  let bx = {
+    alignItems: ' flex-start',
+    borderRadius: '15px',
+    backgroundImage: 'linear-gradient(140deg, rgba(29, 40, 56, 0.5), rgba(29, 40, 56, 0.25))',
+    justifyContent: 'center',
+    padding: '42px',
+    backgroundColor:'#000'
+  }
+
+  let bxy = {
+    alignItems: ' flex-start',
+    borderRadius: '15px',
+    backgroundImage: 'linear-gradient(140deg, #1d2838, rgba(29, 40, 56, 0.5))',
+    justifyContent: 'center',
+    padding: '42px',
+    backgroundColor:'#000'
+  }
+  
+
   return (
     <>
-      <div className="container my-3" style={{ maxWidth: '920px' }}>
+      <div className="container my-5" style={{ maxWidth: '920px' }}>
         <div className="container my-5 text-center">
           <div className="row text-center">
             <div className="col">
@@ -96,7 +141,7 @@ export default function Home() {
         <img src="" alt="bgimg" />
       </div>
 
-      <div className="container my-3" style={{ maxWidth: '920px' }}>
+      <div className="container my-5" style={{ maxWidth: '920px' }}>
         <div className="container text-center">
           <div className="row text-center">
             <div className="col">
@@ -111,7 +156,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container my-3 d-flex justify-content-center">
+      <div className="container my-5 d-flex justify-content-center">
         <div className="row">
           <div className="col-md-4">
             <div className="card-group">
@@ -159,7 +204,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container mb-5 d-flex justify-content-center">
+      <div className="container my-5 d-flex justify-content-center">
         <div className="row">
           <div className="col-md-4">
             <div className="card-group d-flex justify-content-center">
@@ -202,8 +247,235 @@ export default function Home() {
         </div>
       </div>
 
-<div className="container"></div>
+      <div className="container my-5" style={{ maxWidth: '1200px' }}>
+        <div className="row">
+          <div className="col-md-5 " style={{ textAlign: 'left' }}>
+            <span className=" badge my-3" style={Span} >Solving</span>
+            <h1 className="mb-3" style={{ fontSize: '66px', fontWeight: '500', lineHeight: '106%', letterSpacing: '-1px' }}>
+              Write smart contracts in a language you already love
+            </h1>
+            <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+            </p>
+          </div>
+          <div className="col-md-7">
+            <h1>img</h1>
+          </div>
+        </div>
+      </div>
 
+
+      <div className="container my-5" style={{ maxWidth: '1200px' }}>
+        <div className="row ">
+          <div className="col-md-7">
+            <div className="container d-flex justify-content-center">
+            <div class="card d-flex justify-content-center" style={bx}>
+                <div class="card-body">
+                <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+                </div> 
+              </div>
+            </div>
+            <div className="row my-4">
+              <div className="col-md-6">    
+               <div class="card" style={bx}>
+                <div class="card-body">
+                  <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+                </div>
+              </div></div>
+              <div className="col-md-6">    
+               <div class="card"style={bxy}>
+                <div class="card-body">
+                <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+                </div>
+              </div></div>
+            </div>
+            <div className="container d-flex justify-content-center">
+            <div class="card d-flex justify-content-center" style={bxy}>
+                <div class="card-body">
+                <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div className="col-md-5" style={{ textAlign: 'left' }}>
+            <span className=" badge my-3" style={Span} >Welcome to Core</span>
+            <h1 className="mb-3" style={{ fontSize: '66px', fontWeight: '500', lineHeight: '106%', letterSpacing: '-1px' }}>
+              Building blocks for next generation internet
+            </h1>
+            <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+            </p>
+            <button className="btn-primary" style={read}>Learn More</button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div className="container  mt-5" style={{ maxWidth: '920px' }}>
+        <div className="container text-center">
+          <div className="row text-center">
+            <div className="col">
+              <span className=" badge my-3" style={Span} >BACKED BY</span>
+              <h1 className="mb-5" style={{ fontSize: '80px', fontWeight: ' 500', lineHeight: '106%', letterSpacing: '-1.4px' }}>
+                Secure network protocol for the next web
+              </h1>
+              <p className="mb-5  " style={{ maxWidth: '880px', color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container my-5">
+        <div className="row ">
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div className="row my-3">
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div class="card" style={bgbox}>
+              <div class="card-body">
+                <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div className="container my-5" style={{ maxWidth: '1200px', height: '500px' }}>
+        <div className="row">
+          <div className="col-md-7">
+            <h1>img</h1>
+          </div>
+          <div className="col-md-5" style={{ textAlign: 'left' }}>
+            <span className=" badge my-3" style={Span} >Welcome to Core</span>
+            <h1 className="mb-3" style={{ fontSize: '66px', fontWeight: '500', lineHeight: '106%', letterSpacing: '-1px' }}>
+              Building blocks for next generation internet
+            </h1>
+            <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="container my-3">
+        <div className="row">
+          <div className="col">
+            <span className="badge my-3" style={Span} >Blog</span>
+            <h1 className="mb-5" style={{ fontSize: '80px', fontWeight: ' 400', lineHeight: '106%', letterSpacing: '-1.4px' }}>
+              News and Updates
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div className="container  mb-5" >
+        <div className="row">
+          <div className="col-md-4 my-3">
+            <div className="card-group">
+              <div className="card" style={Style}>
+                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt="picture" />
+                <div className="card-body">
+                  <p className="card-text"><small className="text-muted">date...</small></p>
+                  <p className="card-text" style={{ color: 'rgba(216, 223, 233, 0.8)', fontSize: '30px', fontWeight: ' 600', lineHeight: '105%', letterSpacing: '-1.4px' }}>This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div></div></div>
+          <div className="col-md-4 my-3">
+            <div className="card-group">
+              <div className="card" style={Style}>
+                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt="picture" />
+                <div className="card-body">
+                  <p className="card-text"><small className="text-muted">date...</small></p>
+                  <p className="card-text" style={{ color: 'rgba(216, 223, 233, 0.8)', fontSize: '30px', fontWeight: ' 600', lineHeight: '105%', letterSpacing: '-1.4px' }}>This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div></div></div>
+          <div className="col-md-4 my-3">
+            <div className="card-group">
+              <div className="card" style={Style}>
+                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt="picture" />
+                <div className="card-body">
+                  <p className="card-text"><small className="text-muted">date...</small></p>
+                  <p className="card-text" style={{ color: 'rgba(216, 223, 233, 0.8)', fontSize: '30px', fontWeight: ' 600', lineHeight: '105%', letterSpacing: '-1.4px' }}>This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div></div></div>
+        </div>
+      </div>
 
       <div className="container my-5">
         <div className="card text-center" style={ban}>

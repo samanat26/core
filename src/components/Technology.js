@@ -50,16 +50,30 @@ export default function Technology() {
         backgroundColor: ' #000'
     }
 
-        let block = {
-            display: 'flex',
-            padding: '55px 10% 25px',
-            alignItems: 'center',
-            borderRadius: '15px',
-            backgroundImage: 'linear-gradient(140deg, rgba(29, 40, 56, 0.5), rgba(29, 40, 56, 0.25))',
-            textAlign: 'center',
-            color: '#616d7e',
-            backgroundColor: '#000'
-        }
+    let block = {
+        display: 'flex',
+        padding: '55px 10% 25px',
+        alignItems: 'center',
+        borderRadius: '15px',
+        backgroundImage: 'linear-gradient(140deg, rgba(29, 40, 56, 0.5), rgba(29, 40, 56, 0.25))',
+        textAlign: 'center',
+        color: '#616d7e',
+        backgroundColor: '#000'
+    }
+
+    let ppic = {
+        width: '44px',
+        height: '44px',
+        marginBottom: '22px',
+        // maxWidth: '100%',
+        // verticalAlign: 'middle',
+        display: 'inline-block',
+        alignItems: ' center',
+        justifyContent :'center',
+        boxSizing: 'border-box',
+
+
+    }
 
 
     return (
@@ -78,12 +92,14 @@ export default function Technology() {
                     </div>
                 </div>
             </div>
-            <div className="container my-5" style={{ maxWidth: '1200px'}}>
+            <div className="container my-5" style={{ maxWidth: '1200px' }}>
                 <div className="row mb-3">
                     <div className="col">
                         <div className="card" style={block}>
                             <div className="card-body">
-                                <a href="#" className="btn btn-primary mb-3">Go somewhere</a>
+                                <div className="container justify-content-center" >
+                  <img src="assets/images/icon.png" className="card-img-top" style={ppic} alt=" " />
+                </div>
 
                                 <h5 className="card-title mb-3" style={{ color: 'white', fontSize: '24px', lineHeight: '130%', fontWeight: ' 500', letterSpacing: '-0.5px' }}>Fast & Seemless</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -93,7 +109,9 @@ export default function Technology() {
                     <div className="col">
                         <div className="card" style={block}>
                             <div className="card-body">
-                                <a href="#" className="btn btn-primary mb-3">Go somewhere</a>
+                                <div className="container justify-content-center" >
+                  <img src="assets/images/icon.png" className="card-img-top" style={ppic} alt=" " />
+                </div>
                                 <h5 className="card-title mb-3" style={{ color: 'white', fontSize: '24px', lineHeight: '130%', fontWeight: ' 500', letterSpacing: '-0.5px' }}>Unique Functionality</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
@@ -102,7 +120,9 @@ export default function Technology() {
                     <div className="col">
                         <div className="card" style={block}>
                             <div className="card-body">
-                                <a href="#" className="btn btn-primary mb-3">Go somewhere</a>
+                                <div className="container justify-content-center" >
+                  <img src="assets/images/icon.png" className="card-img-top" style={ppic} alt=" " />
+                </div>
                                 <h5 className="card-title mb-3" style={{ color: 'white', fontSize: '24px', lineHeight: '130%', fontWeight: ' 500', letterSpacing: '-0.5px' }}>Smart Contracts</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
@@ -114,7 +134,9 @@ export default function Technology() {
                     <div className="col">
                         <div className="card" style={block} >
                             <div className="card-body">
-                                <a href="#" className="btn btn-primary mb-3">Go somewhere</a>
+                                <div className="container justify-content-center" >
+                  <img src="assets/images/icon.png" className="card-img-top" style={ppic} alt=" " />
+                </div>
                                 <h5 className="card-title mb-3" style={{ color: 'white', fontSize: '24px', lineHeight: '130%', fontWeight: ' 500', letterSpacing: '-0.5px' }}>Build Community</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
@@ -123,7 +145,9 @@ export default function Technology() {
                     <div className="col">
                         <div className="card" style={block} >
                             <div className="card-body">
-                                <a href="#" className="btn btn-primary mb-3">Go somewhere</a>
+                                <div className="container justify-content-center" >
+                  <img src="assets/images/icon.png" className="card-img-top" style={ppic} alt=" " />
+                </div>
                                 <h5 className="card-title mb-3" style={{ color: 'white', fontSize: '24px', lineHeight: '130%', fontWeight: ' 500', letterSpacing: '-0.5px' }}>Secure Financial</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
@@ -132,7 +156,9 @@ export default function Technology() {
                     <div className="col">
                         <div className="card" style={block} >
                             <div className="card-body">
-                                <a href="#" className="btn btn-primary mb-3">Go somewhere</a>
+                                <div className="container justify-content-center" >
+                  <img src="assets/images/icon.png" className="card-img-top" style={ppic} alt=" " />
+                </div>
                                 <h5 className="card-title mb-3" style={{ color: 'white', fontSize: '24px', lineHeight: '130%', fontWeight: ' 500', letterSpacing: '-0.5px' }}>Api Functionality</h5>
                                 <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                             </div>
@@ -142,30 +168,30 @@ export default function Technology() {
 
             </div>
 
-            <div className="container mb-5" style={{ maxWidth: '1200px'}}>
+            <div className="container mb-5" style={{ maxWidth: '1200px' }}>
                 <div className="row">
                     <div className="col-md-7">
                         <h1>img</h1>
                     </div>
-                    <div className="col-md-5" style={{textAlign:'left'}}>
+                    <div className="col-md-5" style={{ textAlign: 'left' }}>
                         <span className=" badge my-3" style={Span} >Welcome to Core</span>
                         <h1 className="mb-3" style={{ fontSize: '66px', fontWeight: '500', lineHeight: '106%', letterSpacing: '-1px' }}>
                             Building blocks for next generation internet
                         </h1>
-                        <p className="mb-3  " style={{  color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+                        <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div className="container my-5" style={{ maxWidth: '1200px'}}>
+            <div className="container my-5" style={{ maxWidth: '1200px' }}>
                 <div className="row">
-                <div className="col-md-5 " style={{textAlign:'left'}}>
+                    <div className="col-md-5 " style={{ textAlign: 'left' }}>
                         <span className=" badge my-3" style={Span} >Solving</span>
                         <h1 className="mb-3" style={{ fontSize: '66px', fontWeight: '500', lineHeight: '106%', letterSpacing: '-1px' }}>
-                            Write smart contracts in a language you already love 
+                            Write smart contracts in a language you already love
                         </h1>
-                        <p className="mb-3  " style={{  color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+                        <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
                     </div>
                     <div className="col-md-7">
@@ -174,17 +200,17 @@ export default function Technology() {
                 </div>
             </div>
 
-            <div className="container my-5" style={{ maxWidth: '1200px'}}>
+            <div className="container my-5" style={{ maxWidth: '1200px' }}>
                 <div className="row">
                     <div className="col-md-7">
                         <h1>img</h1>
                     </div>
-                    <div className="col-md-5 " style={{textAlign:'left'}}>
+                    <div className="col-md-5 " style={{ textAlign: 'left' }}>
                         <span className=" badge my-3" style={Span} >Developers</span>
                         <h1 className="mb-3" style={{ fontSize: '66px', fontWeight: '500', lineHeight: '106%', letterSpacing: '-1px' }}>
                             Build by developers, for developers
                         </h1>
-                        <p className="mb-3  " style={{  color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
+                        <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
                     </div>
                 </div>

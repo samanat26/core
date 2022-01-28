@@ -11,6 +11,13 @@ import Navbar from './components/Navbar';
 import Started from './components/Started';
 import Technology from './components/Technology';
 
+import {
+  
+  Routes,
+  Route,
+
+} from "react-router-dom";
+
 function App() {
   
 
@@ -20,18 +27,19 @@ function App() {
       <div className="App">
     
         <Navbar />
-        {/* <Essential/> */}
-        <Home/>
-        {/* <Started/> */}
-        {/* <Individuals/> */}
-          {/* <Contactme/> */}
-          {/* <Modal/> */}
-          {/* <Blog/> */}
-          {/* <About /> */}
-          {/* <Technology/> */}
-
-
-          
+<Routes>
+        <Route path="/home" element = { <Home/>}>
+          </Route>
+          <Route path="/about" element = { <About/>}>
+          </Route>
+          <Route path="/technology" element = { <Technology/>}>
+          </Route>
+          <Route path="/blog" element = { <Blog/>}>
+          </Route>
+          <Route path="/contact" element = { <Contactme/>}>
+          </Route>
+</Routes>
+     
           <Footer />
 
       
