@@ -28,16 +28,32 @@ function App() {
     
         <Navbar />
 <Routes>
-        <Route path="/home" element = { <Home/>}>
-          </Route>
-          <Route path="/about" element = { <About/>}>
-          </Route>
-          <Route path="/technology" element = { <Technology/>}>
-          </Route>
-          <Route path="/blog" element = { <Blog/>}>
-          </Route>
-          <Route path="/contact" element = { <Contactme/>}>
-          </Route>
+<Route path="/" element = { <Home/>} />
+        <Route path="/home" element = { <Home/>}/>
+          
+          <Route path="/about" element = { <About/>}/>
+          
+          <Route path="/technology" element = { <Technology/>}/>
+          
+          <Route path="/blog" element = { <Blog/>}/>
+          
+          <Route path="/contact" element = { <Contactme/>}/>
+          
+          {/* btns............... */}
+          <Route path="/started" element = { <Started/>} />
+          <Route path="/enterprise" element = { <Enterprise/>} /> 
+          <Route path="/individuals" element = { <Individuals/>} />
+          <Route path="/essentials" element = { <Essential/>} />
+          <Route path="/standard" element = { <Standard/>} /> 
+          <Route path="/professional" element = { <Professional/>} />
+          <Route path="/dessential" element = { <Dessential/>} />
+          <Route path="/dstandard" element = { <Dstandard/>} />
+          <Route path="/dprofessional" element = { <Dprofessional/>} />
+          {/* <Route path="/started" element = { <Started/>} /> */}
+
+          
+
+
 </Routes>
      
           <Footer />

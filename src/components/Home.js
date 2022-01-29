@@ -131,7 +131,8 @@ export default function Home() {
 
               <p className="mb-5  " style={{ justifyContent: 'center', color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
               </p>
-              <button className="btn btn-primary" style={sbtn}><b> Subscribe </b></button>
+              <button className="btn btn-primary" type="link"  to="/started" style={sbtn}><b> Get started</b></button>
+              {/* <Button type="link"  to="/enterprise">Enterprise</Button> */}
 
             </div>
           </div>
@@ -307,7 +308,7 @@ export default function Home() {
             </h1>
             <p className="mb-3  " style={{ color: '#616d7e' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
             </p>
-            <button className="btn-primary" style={read}>Learn More</button>
+            <button className="btn-primary" type="link"  to="/about" style={read}>Learn More</button>
           </div>
         </div>
       </div>

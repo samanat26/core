@@ -95,20 +95,16 @@ export default function Started() {
                         </h1>
                         <p className="mb-5" style={{ maxWidth: '860px', color: '#616d7e', textAlign: 'center' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
-                        {/* <span className="badge " style={smBlock}>
-                            <button className="btn me-3" style={{ color: 'white', cursor: 'pointer' }}><b>Enterprise</b></button>
-                            <button className="btn" style={{  cursor: 'pointer' , color: 'white' }}><b>Individuals</b></button>
-                        </span> */}
                     </div>
                 </div>
             </div>
             <div className="container d-flex justify-content-center" style={smBlock}>
         <button
-          className="btn me-3 text-center"
+          className="btn me-3 text-center" type="link"  to="/enterprise"
           style={{ color: "white", cursor: "pointer" }}>
           <b>Enterprise</b>
         </button>
-        <button className="btn" style={{ cursor: "pointer", color: "white" }}>
+        <button className="btn" type="link"  to="/individuals" style={{ cursor: "pointer", color: "white" }}>
           <b>Individuals</b>
         </button>
       </div>
@@ -129,7 +125,7 @@ export default function Started() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link"  to="/essentials" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -147,7 +143,7 @@ export default function Started() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link"  to="/standard" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -165,7 +161,7 @@ export default function Started() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link"  to="/professional" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -186,7 +182,7 @@ export default function Started() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/dessential" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -204,7 +200,7 @@ export default function Started() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/dstandard" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -222,7 +218,7 @@ export default function Started() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/dprofessional" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>

@@ -38,7 +38,7 @@ export default function Navbar() {
 
 
 
-        <button className="btn me-5" style={{backgroundColor: '#1d2838',color:'white',cursor:'pointer',  fontSize: '18px',fontWeight:' 400',textAlign:'center', borderRadius:'15px', padding:'10px 28px'}} type="submit">Get Started</button>
+        <button className="btn me-5" style={{backgroundColor: '#1d2838',color:'white',cursor:'pointer',  fontSize: '18px',fontWeight:' 400',textAlign:'center', borderRadius:'15px', padding:'10px 28px'}} type="link"  to="/started" >Get Started</button>
       </form>
     </div>
   </div>

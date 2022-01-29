@@ -117,7 +117,7 @@ export default function Enterprise() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/essentials" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ export default function Enterprise() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/standard" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ export default function Enterprise() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/professional" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>

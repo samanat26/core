@@ -119,7 +119,7 @@ export default function Individuals() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/dessential" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ export default function Individuals() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/dstandard" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ export default function Individuals() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5"style={btn}>View Plan</button>
+                             <button className="btn-outline-primary mb-5" type="link" to="/dprofessional" style={btn}>View Plan</button>
                             </div>
                         </div>
                     </div>
