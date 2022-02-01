@@ -2,10 +2,17 @@ import './App.css';
 import About from './components/About';
 import Blog from './components/Blog';
 import Contactme from './components/Contactme';
-import Essential from './components/Essential';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Essential from './components/Essential';
+import Standard from './components/Standard';
+import Professional from './components/Professional';
+import Enterprise from './components/Enterprise';
 import Individuals from './components/Individuals';
+import Dessential from './components/Dessential';
+import Dstandard from './components/Dstandard';
+import Dprofessional from './components/Dprofessional';
+
 // import Modal from './components/Modal';
 import Navbar from './components/Navbar';
 import Started from './components/Started';

@@ -269,34 +269,34 @@ export default function Home() {
         <div className="row ">
           <div className="col-md-7">
             <div className="container d-flex justify-content-center">
-            <div class="card d-flex justify-content-center" style={bx}>
-                <div class="card-body">
-                <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
-                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+            <div className="card d-flex justify-content-center" style={bx}>
+                <div className="card-body">
+                <h5 className="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p className="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
                 </div> 
               </div>
             </div>
             <div className="row my-4">
               <div className="col-md-6">    
-               <div class="card" style={bx}>
-                <div class="card-body">
-                  <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
-                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+               <div className="card" style={bx}>
+                <div className="card-body">
+                  <h5 className="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p className="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
                 </div>
               </div></div>
               <div className="col-md-6">    
-               <div class="card"style={bxy}>
-                <div class="card-body">
-                <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
-                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+               <div className="card"style={bxy}>
+                <div className="card-body">
+                <h5 className="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p className="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
                 </div>
               </div></div>
             </div>
             <div className="container d-flex justify-content-center">
-            <div class="card d-flex justify-content-center" style={bxy}>
-                <div class="card-body">
-                <h5 class="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
-                  <p class="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
+            <div className="card d-flex justify-content-center" style={bxy}>
+                <div className="card-body">
+                <h5 className="card-title" style={{fontSize:'52px' , lineHeight:'110%', fontWeight:'500', letterSpacing:'-0.8px'}}>1.8M+</h5>
+                  <p className="card-text"style={{color:'#616d7e'}}>Wallet Installs</p>
                 </div> 
               </div>
             </div>
@@ -333,40 +333,40 @@ export default function Home() {
       <div className="container my-5">
         <div className="row ">
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
@@ -376,40 +376,40 @@ export default function Home() {
         </div>
         <div className="row my-3">
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>
             </div>
           </div>
           <div className="col">
-            <div class="card" style={bgbox}>
-              <div class="card-body">
+            <div className="card" style={bgbox}>
+              <div className="card-body">
                 <img src="assets/images/icon.png" className="card-img-top" style={{ maxHeight: '55px', maxWidth: '100%' }} alt=" " />
 
               </div>

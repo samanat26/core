@@ -93,13 +93,20 @@ export default function Enterprise() {
                         </h1>
                         <p className="mb-5" style={{ maxWidth: '860px', color: '#616d7e', textAlign: 'center' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
-                        <span className="badge " style={smBlock}>
-                            <button className="btn btn-primary me-3" style={{ borderRadius: '15px',color: 'white', cursor: 'pointer' }}><b>Enterprise</b></button>
-                            <button className="btn" style={{  cursor: 'pointer' ,borderRadius: '15px', color: 'white' }}><b>Individuals</b></button>
-                        </span>
+                        
                     </div>
                 </div>
             </div>
+            <div className="container d-flex justify-content-center" style={smBlock}>
+        <button
+          className="btn btn-primary me-3 text-center" type="link"  to="/enterprise"
+          style={{ color: "white", cursor: "pointer" }}>
+          <b>Enterprise</b>
+        </button>
+        <button className="btn " type="link"  to="/individuals" style={{ cursor: "pointer", color: "white" }}>
+          <b>Individuals</b>
+        </button>
+      </div>
 
             <div className="container my-5" >
             <div className="row my-5">

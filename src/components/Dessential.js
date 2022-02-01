@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+
 export default function Dessential() {
  
 let ess = {
@@ -106,8 +108,8 @@ let blockquote = {
 return (
     <>
         <div className="container my-5"  >
-            <div class="row">
-                <div class="col-8  " style={bigbox} >
+            <div className="row">
+                <div className="col-8  " style={bigbox} >
                 <span className=" badge my-3" style={Span} >Service</span>
                         <h1 className="mb-5" style={ess}>
                             Essentials
@@ -116,16 +118,16 @@ return (
                         </p>
                         <p className="mb-5" style={{ maxWidth: '860px', color: '#616d7e', textAlign: 'left' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
-                        <div class="card" style={blockquote} >
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            {/* <a href="#" class="btn btn-primary stretched-link">Go somewhere</a> */}
+                        <div className="card" style={blockquote} >
+                        <div className="card-body">
+                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            {/* <a href="#" className="btn btn-primary stretched-link">Go somewhere</a> */}
                         </div>
                     </div>
                     <p className="mb-5" style={{ maxWidth: '860px', color: '#616d7e', textAlign: 'left' }}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae itaque est dolore sequi obcaecati, atque magni doloremque, voluptate provident dolorem ut qui enim aliquam, molestiae eos voluptates commodi nam!
                         </p>
                 </div>
-                <div class="col-4 ">
+                <div className="col-4 ">
                 <div className="card" style={bblock}>
                             <img src="assets/images/blue.jpg" className="card-img-top mt-5" style={{width:'180px'}} alt="imgBlock" />
                             <div className="card-body">
