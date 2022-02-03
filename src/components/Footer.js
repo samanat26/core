@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   let Style = {
@@ -26,27 +27,27 @@ export default function Footer() {
         <div className="footer col-6 col-lg-2 offset-lg-1 mb-3">
           <h5>Quick Links</h5>
           <ul className="list-unstyled " style={{color:'white'}}>
-            <li className="mb-2"style={{color:'white'}}><a href="/about">About</a></li>
-            <li className="mb-2"><a href="/technology">Technology</a></li>
-            <li className="mb-2"><a href="/contact">Contact</a></li>
-            <li className="mb-2"><a href="/blog">Blog</a></li>
+            <li className="mb-2"style={{color:'white'}}><Link to="/about">About</Link></li>
+            <li className="mb-2"><Link to="/technology">Technology</Link></li>
+            <li className="mb-2"><Link to="/contact">Contact</Link></li>
+            <li className="mb-2"><Link to="/blog">Blog</Link></li>
           </ul>
         </div>
         <div className="footer col-6 col-lg-2 mb-3">
           <h5>Social</h5>
           <ul className="list-unstyled">
-            <li className="mb-2"><a href="/">Facebook</a></li>
-            <li className="mb-2"><a href="/">Instagram</a></li>
-            <li className="mb-2"><a href="/">Twitter</a></li>
-            <li className="mb-2"><a href="/">Youtube</a></li>
+            <li className="mb-2"><Link to="/">Facebook</Link></li>
+            <li className="mb-2"><Link to="/">Instagram</Link></li>
+            <li className="mb-2"><Link to="/">Twitter</Link></li>
+            <li className="mb-2"><Link to="/">Youtube</Link></li>
           </ul>
         </div>
         <div className="footer col-6 col-lg-2 mb-3">
           <h5>Template</h5>
           <ul className="list-unstyled">
-            <li className="mb-2"><a href="/">Licensing</a></li>
-            <li className="mb-2"><a href="/">Style Guide</a></li>
-            <li className="mb-2"><a href="/">Changelog</a></li>
+            <li className="mb-2"><Link to="/">Licensing</Link></li>
+            <li className="mb-2"><Link to="/">Style Guide</Link></li>
+            <li className="mb-2"><Link to="/">Changelog</Link></li>
         
           </ul>
         </div>

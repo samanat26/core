@@ -127,7 +127,7 @@ export default function Dstandard() {
                     </div>
                     <div className="col-4 ">
                     <div className="card" style={bblock}>
-                                <img src="assets/images/blue.jpg" className="card-img-top mt-5" style={{width:'180px'}} alt="imgBlock" />
+                                <img src="assets/images/blue.jpg" className="card-img-top mt-5" style={{width:'180px'}} alt="Block" />
                                 <div className="card-body">
                                     <h6 className="card-title mb-3"style={{fontSize:'28px',lineHeight:' 106%',fontWeight:' 540',letterSpacing: '-1px'}}>$ 39.00 USD</h6>
                                     <p className="card-text mb-3"style={{color:'#616d7e',textAlign: 'center'}}>Some quick example text to build on the card title and make up the bulk of the card's content.</p>

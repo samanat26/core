@@ -67,7 +67,7 @@ export default function Home() {
     marginBottom: '26px',
     boxSizing: 'border-box',
     maxWidth: '100px',
-    backgroundColor: '#000',
+    // backgroundColor: '#000',
     justifyContent: 'center',
     backgroundColor: "#000"
   }
@@ -452,7 +452,7 @@ export default function Home() {
           <div className="col-md-4 my-3">
             <div className="card-group">
               <div className="card" style={Style}>
-                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt="picture" />
+                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt=" " />
                 <div className="card-body">
                   <p className="card-text"><small className="text-muted">date...</small></p>
                   <p className="card-text" style={{ color: 'rgba(216, 223, 233, 0.8)', fontSize: '30px', fontWeight: ' 600', lineHeight: '105%', letterSpacing: '-1.4px' }}>This card has supporting text below as a natural lead-in to additional content.</p>
@@ -461,7 +461,7 @@ export default function Home() {
           <div className="col-md-4 my-3">
             <div className="card-group">
               <div className="card" style={Style}>
-                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt="picture" />
+                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt=" " />
                 <div className="card-body">
                   <p className="card-text"><small className="text-muted">date...</small></p>
                   <p className="card-text" style={{ color: 'rgba(216, 223, 233, 0.8)', fontSize: '30px', fontWeight: ' 600', lineHeight: '105%', letterSpacing: '-1.4px' }}>This card has supporting text below as a natural lead-in to additional content.</p>
@@ -470,7 +470,7 @@ export default function Home() {
           <div className="col-md-4 my-3">
             <div className="card-group">
               <div className="card" style={Style}>
-                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt="picture" />
+                <img src="assets/images/blue.jpg" className="card-img-top my-3" style={{ opacity: '1', borderRadius: '50px' }} alt=" " />
                 <div className="card-body">
                   <p className="card-text"><small className="text-muted">date...</small></p>
                   <p className="card-text" style={{ color: 'rgba(216, 223, 233, 0.8)', fontSize: '30px', fontWeight: ' 600', lineHeight: '105%', letterSpacing: '-1.4px' }}>This card has supporting text below as a natural lead-in to additional content.</p>

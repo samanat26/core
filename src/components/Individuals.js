@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Individuals() {
   
@@ -100,14 +101,14 @@ export default function Individuals() {
                 </div>
             </div>
             <div className="container d-flex justify-content-center" style={smBlock}>
-        <button
-          className="btn me-3 text-center" type="link"  to="/enterprise"
+        <Link
+          className="btn me-3 text-center" type="button"  to="/enterprise"
           style={{ color: "white", cursor: "pointer" }}>
           <b>Enterprise</b>
-        </button>
-        <button className="btn btn-primary" type="link"  to="/individuals" style={{ cursor: "pointer", color: "white" }}>
+        </Link>
+        <Link className="btn btn-primary" type="button"  to="/individuals" style={{ cursor: "pointer", color: "white" }}>
           <b>Individuals</b>
-        </button>
+        </Link>
       </div>
 
             <div className="container my-5" >
@@ -126,7 +127,7 @@ export default function Individuals() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5" type="link" to="/dessential" style={btn}>View Plan</button>
+                             <Link className="btn-outline-primary mb-5" type="button" to="/dessential" style={btn}>View Plan</Link>
                             </div>
                         </div>
                     </div>
@@ -144,7 +145,7 @@ export default function Individuals() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5" type="link" to="/dstandard" style={btn}>View Plan</button>
+                             <Link className="btn-outline-primary mb-5" type="button" to="/dstandard" style={btn}>View Plan</Link>
                             </div>
                         </div>
                     </div>
@@ -162,7 +163,7 @@ export default function Individuals() {
                                 <li className="mb-3"><b>A third item</b></li>
                             </ul>
                             <div className="card-body">
-                             <button className="btn-outline-primary mb-5" type="link" to="/dprofessional" style={btn}>View Plan</button>
+                             <Link className="btn-outline-primary mb-5" type="button" to="/dprofessional" style={btn}>View Plan</Link>
                             </div>
                         </div>
                     </div>
